@@ -1,0 +1,143 @@
+<!DOCTYPE>
+<html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8"
+    <title>AULA FORMULARIO 15-06-2016</title>
+  </head>
+  <body>
+    <form>
+      nome
+      <input type="text"name="idade" size="10"maxlength="3"></input>
+    </form>
+
+<h3>
+  Botão do Tipo Radio
+</h3>
+<form>
+<input type="radio"name="nome_do_grupo"value="valor"checked/>Masculino<br>
+<input type="radio"name="nome_do_grupo"value="valor"checked/>Feminino<br>
+<input type="radio"name="nome_do_grupo"value="valor"checked/>Outros<br>
+</form>
+<br>
+
+<h3>Caixa de Verificação</h3>
+
+<input type="checkbox" name="nome_do_grupo" value="valor"/> HTML
+<br>
+<input type="checkbox" name="nome_do_grupo" value="valor"/> CSS
+<br>
+<input type="checkbox" name="nome_do_grupo" value="valor"/> JavaScript
+<br>
+<input type="checkbox" name="nome_do_grupo" value="valor"/> PHP
+<br>
+<br>
+  Menu Drop Down
+<form>
+  <select name="Dia de Pagamento">
+    <optgroup label="Linguagem para Web">
+    <option value="valor1">HTML (linguagem de Marcação)</option>
+    <option value="valor2">CSS(Linguagem de Estilo)</option>
+    <option value="valor3">JavaScript(Linguagem de Programação)</option>
+    <option value="valor4">PHP (Linguagem de Programação)</option>
+    </optgroup>
+    </form>
+      <br>
+      <br>
+    <form>
+    <optgroup label="Linguagem Para Desktop">
+      <option value="valor1">C(Linguagem de Programação)</option>
+      <option value="valor1">C++(Linguagem de Programação)</option>
+    </optgroup>
+  </select>
+</form>
+<br>Caixa de Texto<br>
+<form>
+  <select name="Caixa de Lista" size="7">
+    <optgroup label="Grupo 1">
+      <option value="valor1">Opção 1</option>
+      <option value="valor2">Opção 2 </option>
+      <option value="valor3">Opção 3 </option>
+			</optgroup>
+      <optgroup label="Grupo 2">
+        <option value="valor1">Opção 1</option>
+        <option value="valor2">Opção 2 </option>
+        <option value="valor3">Opção 3 </option>
+    </optgroup>
+  </select>
+</form>
+	<br>
+
+		<form>
+  <select name="Caixa de Lista" size="7" multiple="multiple">
+    <optgroup label="Grupo 1">
+      <option value="valor1">Opção 1</option>
+      <option value="valor2">Opção 2 </option>
+      <option value="valor3">Opção 3 </option>
+			</optgroup>
+      <optgroup label="Grupo 2">
+        <option value="valor1">Opção 1</option>
+        <option value="valor2">Opção 2 </option>
+        <option value="valor3">Opção 3 </option>
+    </optgroup>
+  </select>
+</form>
+
+  <br>
+  <br>
+	<p>Grandes caixas de texto</p>
+	<form>
+  <textarea rows="10"cols="40" maxlength="200"></textarea>
+	<form></form>
+
+<p>
+  Nomeando e agrupando campos de um Formulário usando a tags LABEL.
+</p>
+
+  <fieldset>
+    <legend>Login</legend>
+    <label for="Login">E-mail</label>
+    <input type="text" name="email"> <br>
+    <label for="senha">Senha:  </label>
+    <input type="password" name="senha">
+  </fieldset>
+<br><br>
+  <fieldset>
+    <legend>Faixa de dados pessoais</legend>
+    para caixas de pesquisa    <input type="search">
+    para a caixa de entrada    <input type="number"><br>
+    para sliders  <input type="range">
+    para catadores de cor    <input type= "color" ><br>
+    para números de telefone    <input type="tel">
+    para endereços da Web    <input type="url"><br><br>
+</fieldset>
+
+<fieldset>
+<legend>Busca no google</legend>
+<nav>
+  <ul>
+    <li><a href="https://www.google.com.br">google</a></li>
+  </ul>
+</nav>
+</fieldset>
+
+<fieldset>
+<legend>ESPAÇO DE PESQUISA</legend>
+<form action="https://www.google.com/search" target="blank" method="get">
+  <input type="text" name="q">
+  <button type="submit">ENVIAR</button>
+</form>
+</fieldset>
+
+<fieldset>
+  <legend>NOVO ESPAÇO DE PESQUISA</legend>
+  E-mail <input type="email"><p>
+  Data de calendário <input type="date"><p>
+  Mês <input type="month"><p>
+  Semana <input type="week"><p>
+  Data e hora <input type="time"><p>
+  Data e tempo <input type="datetime"><p>
+  Data e horários <input type="datetime-local"><p>
+</fieldset>
+  </body>
+</html>

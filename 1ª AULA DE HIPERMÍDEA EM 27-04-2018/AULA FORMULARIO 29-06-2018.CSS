@@ -1,0 +1,16 @@
+/*MEU PRIMEIRO CSS*/
+
+#R{
+  background-color: #FFCC66;
+		background-image: url("fundo.gif");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: right bottom;
+}
+#R{
+
+}
+#P{
+  background-color:red;
+  font-family: arial, verdana, sans-serif;
+}
